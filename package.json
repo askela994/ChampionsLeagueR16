@@ -1,0 +1,19 @@
+{
+  "name": "championsleague",
+  "version": "1.0.0",
+  "description": "Champions League Round of 16",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "askela",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  },
+  "dependencies": {
+    "core-js": "^3.23.3",
+    "regenerator-runtime": "^0.13.9"
+  }
+}

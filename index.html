@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Champions League Round of 16</title>
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <button class="btn btn-new">🔄 Restart</button>
+      <h1>Champions League - Round of 16</h1>
+      <button class="btn show-modal">📜 Rules</button>
+      <section id="left">
+        <h2 class="teams-group">1st in group</h2>
+        <div class="first-teams"></div>
+      </section>
+      <section id="right">
+        <h2 class="teams-group">2nd in group</h2>
+        <div class="second-teams"></div>
+      </section>
+      <button class="btn btn-pick">⚽ Pick team</button>
+    </main>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Rules</h1>
+      <br />
+      <p>
+        In the draw for the round of 16, the eight group winners were seeded,
+        and the eight group runners-up were unseeded. The seeded teams were
+        drawn against the unseeded teams, with the seeded teams hosting the
+        second leg.
+        <b
+          >Teams from the same group or the same association could not be drawn
+          against each other.</b
+        >
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
